@@ -1,7 +1,7 @@
 " plug ----------------------------------------------------------------
 call plug#begin('~/.local/share/nvim/plugged')
 
-Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
 call plug#end()
 " colors --------------------------------------------------------------
