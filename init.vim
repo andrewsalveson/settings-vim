@@ -14,6 +14,8 @@ set tabstop=2
 set softtabstop=2
 set expandtab
 set autoindent
+" code folding --------------------------------------------------------
+set foldmethod=syntax
 " misc ----------------------------------------------------------------
 set number
 syntax on
